@@ -1,0 +1,3 @@
+Total transactions fetched: 1928
+Total successful transactions processed: 1928
+Total transactions calling send_email: 1927
