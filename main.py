@@ -114,7 +114,7 @@ async def process_transactions(session, action, transactions_list, counters):
     Fetch and process transactions for the given action.
     """
     page = 1
-    offset = 100  # Number of transactions per page (adjust if needed)
+    offset = 10000  # Number of transactions per page (adjust if needed)
     tasks = []
     while True:
         data = await fetch_transactions(session, action, page, offset)
